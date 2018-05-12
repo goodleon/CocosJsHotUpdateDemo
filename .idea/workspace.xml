@@ -2,146 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="470e614f-868b-47ef-92b8-aea158d68e0c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.cocos-project.json" afterPath="$PROJECT_DIR$/.cocos-project.json" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/config.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/CCBoot.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/CCBoot.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/CCDebugger.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/CCDebugger.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/actions/CCActionInstant.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/actions/CCActionInstant.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/actions3d/CCActionGrid.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/actions3d/CCActionGrid.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/audio/CCAudio.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/audio/CCAudio.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/clipping-nodes/CCClippingNode.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/clipping-nodes/CCClippingNode.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/CCConfiguration.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/CCConfiguration.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/CCDirector.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/CCDirector.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/CCDirectorCanvas.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/CCDirectorCanvas.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/CCDirectorWebGL.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/CCDirectorWebGL.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/CCScheduler.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/CCScheduler.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/base-nodes/CCAtlasNode.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/base-nodes/CCAtlasNode.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/base-nodes/CCAtlasNodeCanvasRenderCmd.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/base-nodes/CCAtlasNodeCanvasRenderCmd.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/base-nodes/CCNode.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/base-nodes/CCNode.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/base-nodes/CCNodeCanvasRenderCmd.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/base-nodes/CCNodeCanvasRenderCmd.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/base-nodes/CCNodeWebGLRenderCmd.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/base-nodes/CCNodeWebGLRenderCmd.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/event-manager/CCEventManager.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/event-manager/CCEventManager.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/labelttf/CCLabelTTF.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/labelttf/CCLabelTTF.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/labelttf/CCLabelTTFCanvasRenderCmd.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/labelttf/CCLabelTTFCanvasRenderCmd.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/labelttf/CCLabelTTFWebGLRenderCmd.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/labelttf/CCLabelTTFWebGLRenderCmd.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/layers/CCLayer.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/layers/CCLayer.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/layers/CCLayerCanvasRenderCmd.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/layers/CCLayerCanvasRenderCmd.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/platform/CCClass.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/platform/CCClass.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/platform/CCConfig.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/platform/CCConfig.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/platform/CCEGLView.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/platform/CCEGLView.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/platform/CCInputExtension.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/platform/CCInputExtension.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/platform/CCInputManager.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/platform/CCInputManager.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/platform/CCLoaders.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/platform/CCLoaders.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/platform/CCMacro.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/platform/CCMacro.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/platform/CCSAXParser.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/platform/CCSAXParser.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/platform/CCScreen.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/platform/CCScreen.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/platform/CCTypes.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/platform/CCTypes.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/platform/CCTypesWebGL.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/platform/CCTypesWebGL.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/renderer/RendererCanvas.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/renderer/RendererCanvas.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/renderer/RendererWebGL.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/renderer/RendererWebGL.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/scenes/CCLoaderScene.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/scenes/CCLoaderScene.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSprite.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSprite.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteBatchNode.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteBatchNode.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteBatchNodeCanvasRenderCmd.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteBatchNodeCanvasRenderCmd.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteCanvasRenderCmd.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteCanvasRenderCmd.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrame.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrame.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteFrameCache.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteWebGLRenderCmd.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/sprites/CCSpriteWebGLRenderCmd.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/textures/CCTexture2D.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/textures/CCTexture2D.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/textures/CCTextureAtlas.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/textures/CCTextureAtlas.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/textures/CCTextureCache.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/textures/CCTextureCache.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/textures/TexturesWebGL.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/textures/TexturesWebGL.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/utils/BinaryLoader.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/core/utils/BinaryLoader.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/effects/CCGrabber.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/effects/CCGrabber.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/effects/CCGrid.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/effects/CCGrid.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/labels/CCLabelAtlas.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/labels/CCLabelAtlas.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/labels/CCLabelAtlasCanvasRenderCmd.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/labels/CCLabelAtlasCanvasRenderCmd.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/labels/CCLabelAtlasWebGLRenderCmd.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/labels/CCLabelAtlasWebGLRenderCmd.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/labels/CCLabelBMFont.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/labels/CCLabelBMFont.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/labels/CCLabelBMFontCanvasRenderCmd.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/labels/CCLabelBMFontCanvasRenderCmd.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/labels/CCLabelBMFontWebGLRenderCmd.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/labels/CCLabelBMFontWebGLRenderCmd.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/motion-streak/CCMotionStreak.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/motion-streak/CCMotionStreak.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/node-grid/CCNodeGrid.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/node-grid/CCNodeGrid.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/parallax/CCParallaxNode.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/parallax/CCParallaxNode.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/parallax/CCParallaxNodeRenderCmd.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/parallax/CCParallaxNodeRenderCmd.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/particle/CCParticleBatchNode.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/particle/CCParticleBatchNode.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/particle/CCParticleExamples.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/particle/CCParticleExamples.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/particle/CCParticleSystem.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/particle/CCParticleSystem.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/particle/CCParticleSystemCanvasRenderCmd.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/particle/CCParticleSystemCanvasRenderCmd.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/particle/CCTIFFReader.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/particle/CCTIFFReader.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/physics/CCPhysicsDebugNode.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/physics/CCPhysicsDebugNode.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/physics/CCPhysicsSprite.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/physics/CCPhysicsSprite.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/physics/CCPhysicsSpriteWebGLRenderCmd.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/physics/CCPhysicsSpriteWebGLRenderCmd.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/progress-timer/CCProgressTimer.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/progress-timer/CCProgressTimer.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/progress-timer/CCProgressTimerCanvasRenderCmd.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/progress-timer/CCProgressTimerCanvasRenderCmd.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/progress-timer/CCProgressTimerWebGLRenderCmd.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/progress-timer/CCProgressTimerWebGLRenderCmd.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/render-texture/CCRenderTexture.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/render-texture/CCRenderTexture.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/render-texture/CCRenderTextureCanvasRenderCmd.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/render-texture/CCRenderTextureCanvasRenderCmd.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/shape-nodes/CCDrawNode.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/shape-nodes/CCDrawNode.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/shape-nodes/CCDrawNodeCanvasRenderCmd.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/shape-nodes/CCDrawNodeCanvasRenderCmd.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/text-input/CCIMEDispatcher.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/text-input/CCIMEDispatcher.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/text-input/CCTextFieldTTF.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/text-input/CCTextFieldTTF.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/tilemap/CCTMXLayer.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/tilemap/CCTMXLayer.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/tilemap/CCTMXLayerCanvasRenderCmd.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/tilemap/CCTMXLayerCanvasRenderCmd.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/tilemap/CCTMXXMLParser.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/tilemap/CCTMXXMLParser.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/transitions/CCTransition.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/transitions/CCTransition.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/transitions/CCTransitionProgress.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/cocos2d/transitions/CCTransitionProgress.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNode.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNode.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeWebGLRenderCmd.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccui/base-classes/CCProtectedNodeWebGLRenderCmd.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccui/base-classes/UIScale9Sprite.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccui/base-classes/UIScale9Sprite.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccui/base-classes/UIScale9SpriteCanvasRenderCmd.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccui/base-classes/UIScale9SpriteCanvasRenderCmd.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccui/base-classes/UIScale9SpriteWebGLRenderCmd.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccui/base-classes/UIScale9SpriteWebGLRenderCmd.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccui/base-classes/UIWidget.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccui/base-classes/UIWidget.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccui/base-classes/UIWidgetRenderCmd.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccui/base-classes/UIWidgetRenderCmd.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccui/layouts/UILayout.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccui/layouts/UILayout.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccui/layouts/UILayoutCanvasRenderCmd.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccui/layouts/UILayoutCanvasRenderCmd.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccui/uiwidgets/UIButton.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccui/uiwidgets/UIButton.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccui/uiwidgets/UIImageView.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccui/uiwidgets/UIImageView.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccui/uiwidgets/UILoadingBar.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccui/uiwidgets/UILoadingBar.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccui/uiwidgets/UIText.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccui/uiwidgets/UIText.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccui/uiwidgets/UIVideoPlayer.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccui/uiwidgets/UIVideoPlayer.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccui/uiwidgets/UIWebView.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccui/uiwidgets/UIWebView.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccui/uiwidgets/scroll-widget/UIScrollView.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/ccui/uiwidgets/scroll-widget/UIScrollView.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/action/CCActionNode.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/action/CCActionNode.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/armature/CCArmature.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/armature/CCArmature.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/armature/CCArmatureWebGLRenderCmd.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/armature/CCArmatureWebGLRenderCmd.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/armature/CCBone.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/armature/CCBone.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/armature/display/CCSkin.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/armature/display/CCSkin.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/loader/load.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/loader/load.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/loader/parsers/action-1.x.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/loader/parsers/action-1.x.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/loader/parsers/action-2.x.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/loader/parsers/action-2.x.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/loader/parsers/timelineParser-1.x.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/loader/parsers/timelineParser-1.x.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/loader/parsers/timelineParser-2.x.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/loader/parsers/timelineParser-2.x.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/loader/parsers/uiParser-1.x.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/loader/parsers/uiParser-1.x.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/timeline/ActionTimeline.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/timeline/ActionTimeline.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/timeline/CCBoneNode.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/timeline/CCBoneNode.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/timeline/Frame.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/cocostudio/timeline/Frame.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/editbox/CCEditBox.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/editbox/CCEditBox.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/editbox/CCdomNode.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/editbox/CCdomNode.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/gui/control-extension/CCScale9Sprite.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/gui/control-extension/CCScale9SpriteCanvasRenderCmd.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/gui/control-extension/CCScale9SpriteWebGLRenderCmd.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/gui/scrollview/CCScrollView.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/gui/scrollview/CCScrollView.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/gui/scrollview/CCScrollViewCanvasRenderCmd.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/gui/scrollview/CCScrollViewCanvasRenderCmd.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/gui/scrollview/CCScrollViewWebGLRenderCmd.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/gui/scrollview/CCScrollViewWebGLRenderCmd.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/spine/CCSkeleton.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/spine/CCSkeleton.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/spine/CCSkeletonAnimation.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/spine/CCSkeletonAnimation.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/spine/CCSkeletonWebGLRenderCmd.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/spine/CCSkeletonWebGLRenderCmd.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/spine/Spine.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/extensions/spine/Spine.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/external/gaf/Library/GAFShaderManager.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/external/gaf/Library/GAFShaderManager.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/external/gaf/Library/GAFSprite.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/external/gaf/Library/GAFSprite.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/external/gaf/Library/GAFSpriteCanvasRenderCmd.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/external/gaf/Library/GAFSpriteCanvasRenderCmd.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/external/pluginx/Plugin.js" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/external/pluginx/Plugin.js" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/moduleConfig.json" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/moduleConfig.json" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/tools/build.xml" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/tools/build.xml" />
-      <change beforePath="$PROJECT_DIR$/frameworks/cocos2d-html5/tools/template/build.xml" afterPath="$PROJECT_DIR$/frameworks/cocos2d-html5/tools/template/build.xml" />
-      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change beforePath="$PROJECT_DIR$/jsb.sqlite" afterPath="" />
       <change beforePath="$PROJECT_DIR$/main.js" afterPath="$PROJECT_DIR$/main.js" />
-      <change beforePath="$PROJECT_DIR$/manifest.webapp" afterPath="$PROJECT_DIR$/manifest.webapp" />
-      <change beforePath="$PROJECT_DIR$/project.json" afterPath="$PROJECT_DIR$/project.json" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -153,8 +15,29 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="538">
+              <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/main.js" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -163,8 +46,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="881" />
-    <option name="y" value="75" />
+    <option name="x" value="795" />
+    <option name="y" value="23" />
     <option name="width" value="1400" />
     <option name="height" value="937" />
   </component>
@@ -243,12 +126,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="199000" />
+    <option name="totallyTimeSpent" value="546000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="881" y="75" width="1400" height="937" extended-state="0" />
+    <frame x="795" y="23" width="1400" height="937" extended-state="0" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24945612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24945612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -260,6 +143,8 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24945612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -276,5 +161,15 @@
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="538">
+          <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
