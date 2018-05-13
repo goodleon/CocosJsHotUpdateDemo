@@ -126,15 +126,15 @@ cc.game.onStart = function(){
 
                 var that = this;
 
-                var listaner = new cc.EventListenerAssetsManager(this._am, function(event){
+                var listener = new jsb.EventListenerAssetsManager(this._am, function(event){
                     switch(event.getEventCode()){
 
-                        case cc.EventAssetsManager.ERROR_NO_LOCAL_MANIFEST:
+                        case jsb.EventAssetsManager.ERROR_NO_LOCAL_MANIFEST:
                             cc.log("<<<<<Fail to load local project.manifest, step update");
                             that.loadGame();
                             break;
 
-                        case cc.EventAssetsManager.UPDATE_PROGRESSION:
+                        case jsb.EventAssetsManager.UPDATE_PROGRESSION:
                                 this._percent = event.getPercent();
                                 cc.log("<<<<<update percent:", this._percent, "%");
                                 var msg = event.getMessage();
@@ -143,27 +143,27 @@ cc.game.onStart = function(){
                                 }
                             break;
 
-                        case cc.EventAssetsManager.ERROR_DOWNLOAD_MANIFEST:
+                        case jsb.EventAssetsManager.ERROR_DOWNLOAD_MANIFEST:
                             cc.log("<<<<<Fail to download project.manifest, step update");
                             that.loadGame();
                             break;
 
-                        case cc.EventAssetsManager.ERROR_PARSE_MANIFEST:
+                        case jsb.EventAssetsManager.ERROR_PARSE_MANIFEST:
                             cc.log("<<<<<Fail to parse project.manifest, step update");
                             that.loadGame();
                             break;
 
-                        case cc.EventAssetsManager.ALREADY_UP_TO_DATE:
+                        case jsb.EventAssetsManager.ALREADY_UP_TO_DATE:
                             cc.log("<<<<<already up to date");
                             that.loadGame();
                             break;
 
-                        case cc.EventAssetsManager.UPDATE_FINISHED:
+                        case jsb.EventAssetsManager.UPDATE_FINISHED:
                             cc.log("<<<<<update finish");
                             that.loadGame();
                             break;
 
-                        case cc.EventAssetsManager.UPDATE_FAILED:
+                        case jsb.EventAssetsManager.UPDATE_FAILED:
                             cc.log("<<<<<update failed");
                             failCount++;
                             if(failCount < maxFailCount){
@@ -175,12 +175,12 @@ cc.game.onStart = function(){
                             }
                             break;
 
-                        case cc.EventAssetsManager.ERROR_UPDATING:
+                        case jsb.EventAssetsManager.ERROR_UPDATING:
                             cc.log("<<<<<error updating");
                             that.loadGame();
                             break;
 
-                        case cc.EventAssetsManager.ERROR_DECOMPRESS:
+                        case jsb.EventAssetsManager.ERROR_DECOMPRESS:
                             cc.log("<<<<<error decompress");
                             that.loadGame();
                             break;
