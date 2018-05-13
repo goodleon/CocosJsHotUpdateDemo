@@ -96,14 +96,9 @@ cc.game.onStart = function(){
                 });
                 return;
 
-            }else {
-
-                cc.log("<<<<<aaaaa");
-                this.loadGame();
-
-                //先跳过所有更新逻辑
-                return;
             }
+
+            cc.log("<<<<<开始检查热更...");
 
             var layer = new cc.Layer();
             this.addChild(layer);
@@ -211,7 +206,6 @@ cc.game.onStart = function(){
             }, this);
 
             this.schedule(this.updateProgress, 0.5);
-
 
         },
 
