@@ -19,6 +19,9 @@ IGNORE_FILES = ['.DS_Store', 'project.manifest']
 # 生成的热更新文件信息路径
 PROJECT_MANIFEST_PATH = os.path.join(sys.path[0] + "/../res", "project.manifest")
 
+# 生成的热更新文件信息路径
+VERSION_MANIFEST_PATH = os.path.join(sys.path[0] + "/../res", "version.manifest")
+
 # src目录
 RES_DIR_PATH = sys.path[0] + "/../res"
 
@@ -36,6 +39,7 @@ def getFileMd5(fileName):
         b = f.read(8096)
         if not b:
             break
+        myHash.update(b)
     f.close()
     return myHash.hexdigest()
 
@@ -91,6 +95,9 @@ def createProjectManifest():
     jsonData = json.dumps(projectConfigJson)
 
     with open(PROJECT_MANIFEST_PATH, 'w') as f:
+        f.write(jsonData)
+
+    with open(VERSION_MANIFEST_PATH, 'w') as f:
         f.write(jsonData)
 
 
