@@ -14,7 +14,7 @@ import hashlib
 '''
 
 #
-IGNORE_FILES = ['.DS_Store', 'project.manifest']
+IGNORE_FILES = ['.DS_Store', 'project.manifest', 'version.manifest']
 
 # 生成的热更新文件信息路径
 PROJECT_MANIFEST_PATH = os.path.join(sys.path[0] + "/../res", "project.manifest")

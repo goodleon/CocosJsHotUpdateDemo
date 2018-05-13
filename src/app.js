@@ -16,7 +16,7 @@ var HelloWorldLayer = cc.Layer.extend({
         // 3. add your codes below...
         // add a label shows "Hello World"
         // create and initialize a label
-        var helloLabel = new cc.LabelTTF("CocosJsHotUpdateDemo", "Arial", 38);
+        var helloLabel = new cc.LabelTTF("CocosJsHotUpdateDemo OLD", "Arial", 38);
         // position the label on the center of the screen
         helloLabel.x = size.width / 2;
         helloLabel.y = size.height / 2 + 200;
