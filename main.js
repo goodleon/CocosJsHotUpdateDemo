@@ -84,6 +84,7 @@ cc.game.onStart = function(){
 
         run: function(){
 
+
             if (!cc.sys.isNative) {
 
                 cc.log("<<<<<cc.sys.isNative:", cc.sys.isNative);
@@ -97,6 +98,7 @@ cc.game.onStart = function(){
 
             }else {
 
+                cc.log("<<<<<aaaaa");
                 this.loadGame();
 
                 //先跳过所有更新逻辑
@@ -107,7 +109,7 @@ cc.game.onStart = function(){
             this.addChild(layer);
 
             //进度条
-            this._progress = new cc.LabelTTF.create("ypdate 0%", "Arial", 12);
+            this._progress = new cc.LabelTTF.create("update 0%", "Arial", 12);
             this._progress.x = cc.winSize.width/2;
             this._progress.y = cc.winSize.height/2 + 50;
             layer.addChild(this._progress);
@@ -148,18 +150,22 @@ cc.game.onStart = function(){
 
                         case cc.EventAssetsManager.ERROR_DOWNLOAD_MANIFEST:
                             cc.log("<<<<<Fail to download project.manifest, step update");
+                            that.loadGame();
                             break;
 
                         case cc.EventAssetsManager.ERROR_PARSE_MANIFEST:
                             cc.log("<<<<<Fail to parse project.manifest, step update");
+                            that.loadGame();
                             break;
 
                         case cc.EventAssetsManager.ALREADY_UP_TO_DATE:
                             cc.log("<<<<<already up to date");
+                            that.loadGame();
                             break;
 
                         case cc.EventAssetsManager.UPDATE_FINISHED:
                             cc.log("<<<<<update finish");
+                            that.loadGame();
                             break;
 
                         case cc.EventAssetsManager.UPDATE_FAILED:
@@ -213,13 +219,9 @@ cc.game.onStart = function(){
         loadGame: function(){
 
             cc.loader.loadJs(["src/jsList.js"], function(){
-
                 cc.loader.loadJs(jsList, function(){
-
                     cc.director.runScene(new HelloWorldScene());
-
                 });
-
             });
         },
 

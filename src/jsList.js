@@ -1,4 +1,4 @@
 var jsList = [
-  "src/resource/js",
-  "src/app.js"
+  "src/resource.js",
+    "src/app.js",
 ]
