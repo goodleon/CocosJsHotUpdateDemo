@@ -136,7 +136,7 @@ cc.game.onStart = function(){
 
                         case jsb.EventAssetsManager.UPDATE_PROGRESSION:
                                 this._percent = event.getPercent();
-                                cc.log("<<<<<update percent:", this._percent, "%");
+                                cc.log("<<<<<update percent:", this._percent + "%");
                                 var msg = event.getMessage();
                                 if(msg){
                                     cc.log("<<<<<msg:", msg);
