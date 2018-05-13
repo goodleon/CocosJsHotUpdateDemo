@@ -83,7 +83,9 @@ cc.game.onStart = function(){
         _percent: 0,
 
         run: function(){
+
             if (!cc.sys.isNative) {
+
                 cc.log("<<<<<cc.sys.isNative:", cc.sys.isNative);
 
                 var that = this;
@@ -91,6 +93,8 @@ cc.game.onStart = function(){
                 cc.loader.loadJs(["src/resource.js"], function(){
                     cc.loader.load(resources, that.loadGame);
                 });
+                return;
+
             }else {
 
                 this.loadGame();
@@ -99,14 +103,136 @@ cc.game.onStart = function(){
                 return;
             }
 
+            var layer = new cc.Layer();
+            this.addChild(layer);
+
+            //进度条
+            this._progress = new cc.LabelTTF.create("ypdate 0%", "Arial", 12);
+            this._progress.x = cc.winSize.width/2;
+            this._progress.y = cc.winSize.height/2 + 50;
+            layer.addChild(this._progress);
+
+            //
+            var storagePath = (jsb.fileUtils ? jsb.fileUtils.getWritablePath() : "./");
+
+            //
+            this._am = new jsb.AssetsManager("res/project.manifest", storagePath);
+            this._am.retain();
+
+            //本地文件不存在更新文件，跳过更新
+            if(!this._am.getLocalManifest().isLoaded()){
+
+                cc.log("<<<<<load local project.manifest error, step update");
+
+                this.loadGame();
+            }else{
+
+                var that = this;
+
+                var listaner = new cc.EventListenerAssetsManager(this._am, function(event){
+                    switch(event.getEventCode()){
+
+                        case cc.EventAssetsManager.ERROR_NO_LOCAL_MANIFEST:
+                            cc.log("<<<<<Fail to load local project.manifest, step update");
+                            that.loadGame();
+                            break;
+
+                        case cc.EventAssetsManager.UPDATE_PROGRESSION:
+                                this._percent = event.getPercent();
+                                cc.log("<<<<<update percent:", this._percent, "%");
+                                var msg = event.getMessage();
+                                if(msg){
+                                    cc.log("<<<<<msg:", msg);
+                                }
+                            break;
+
+                        case cc.EventAssetsManager.ERROR_DOWNLOAD_MANIFEST:
+                            cc.log("<<<<<Fail to download project.manifest, step update");
+                            break;
+
+                        case cc.EventAssetsManager.ERROR_PARSE_MANIFEST:
+                            cc.log("<<<<<Fail to parse project.manifest, step update");
+                            break;
+
+                        case cc.EventAssetsManager.ALREADY_UP_TO_DATE:
+                            cc.log("<<<<<already up to date");
+                            break;
+
+                        case cc.EventAssetsManager.UPDATE_FINISHED:
+                            cc.log("<<<<<update finish");
+                            break;
+
+                        case cc.EventAssetsManager.UPDATE_FAILED:
+                            cc.log("<<<<<update failed");
+                            failCount++;
+                            if(failCount < maxFailCount){
+                                that._am.downloadFailedAssets();
+                            }else{
+                                cc.log("<<<<< reach max fial count, exit update");
+                                failCount = 0;
+                                that.loadGame();
+                            }
+                            break;
+
+                        case cc.EventAssetsManager.ERROR_UPDATING:
+                            cc.log("<<<<<error updating");
+                            that.loadGame();
+                            break;
+
+                        case cc.EventAssetsManager.ERROR_DECOMPRESS:
+                            cc.log("<<<<<error decompress");
+                            that.loadGame();
+                            break;
+
+                        default:
+                            break;
+                    }
+                });
+
+                //
+                cc.eventManager.addListener(listener, 1);
+                this._am.update();
+                cc.director.runScene(this);
+            }
+
+            cc.eventManager.addListener({
+                event: cc.EventListener.KEYBOARD,
+                onKeyReleased: function(keyCode, event){
+                    if(keyCode == cc.KEY.back){
+                        cc.director.end();
+                    }
+                }
+            }, this);
+
+            this.schedule(this.updateProgress, 0.5);
+
+
         },
 
+        //
         loadGame: function(){
+
             cc.loader.loadJs(["src/jsList.js"], function(){
+
                 cc.loader.loadJs(jsList, function(){
+
                     cc.director.runScene(new HelloWorldScene());
+
                 });
+
             });
+        },
+
+        //
+        updateProgress: function(dt){
+            this._progress.string = "update " + this._percent + "%";
+        },
+
+        //
+        onExit:function(){
+            cc.log("<<<<<Assetsmanager.onExit called");
+            this._am.release();
+            this._super();
         }
     });
 
@@ -115,3 +241,23 @@ cc.game.onStart = function(){
     scene.run();
 };
 cc.game.run();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
