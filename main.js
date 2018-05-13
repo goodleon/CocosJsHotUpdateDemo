@@ -71,15 +71,47 @@ cc.game.onStart = function(){
     // The game will be resized when browser size change
     cc.view.resizeWithBrowserSize(true);
 
+    //下载失败次数控制
+    var failCount = 0;
+    var maxFailCount = 1;
 
+    //自动更新js资源
+    var AsstesManagerLoaderScene = cc.Scene.extend({
 
+        _am: null,
+        _progress: null,
+        _percent: 0,
 
+        run: function(){
+            if (!cc.sys.isNative) {
+                cc.log("<<<<<cc.sys.isNative:", cc.sys.isNative);
 
+                var that = this;
+                //h5游戏必须先预加载，否则plist则无效
+                cc.loader.loadJs(["src/resource.js"], function(){
+                    cc.loader.load(resources, that.loadGame);
+                });
+            }else {
 
+                this.loadGame();
 
-    //load resources
-    cc.LoaderScene.preload(g_resources, function () {
-        cc.director.runScene(new HelloWorldScene());
-    }, this);
+                //先跳过所有更新逻辑
+                return;
+            }
+
+        },
+
+        loadGame: function(){
+            cc.loader.loadJs(["src/jsList.js"], function(){
+                cc.loader.loadJs(jsList, function(){
+                    cc.director.runScene(new HelloWorldScene());
+                });
+            });
+        }
+    });
+
+    //
+    var scene = new AsstesManagerLoaderScene();
+    scene.run();
 };
 cc.game.run();

@@ -153,7 +153,8 @@ bool AppDelegate::applicationDidFinishLaunching()
     sc->start();    
     sc->runScript("script/jsb_boot.js");
 #if defined(COCOS2D_DEBUG) && (COCOS2D_DEBUG > 0)
-    sc->enableDebugger();
+    CCLOG("<<<<<dubug port: 6050");
+    sc->enableDebugger(6050);
 #endif
     ScriptEngineProtocol *engine = ScriptingCore::getInstance();
     ScriptEngineManager::getInstance()->setScriptEngine(engine);
