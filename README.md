@@ -8,7 +8,13 @@ cocosjs(AssetsManager)
 
 2.后端web服务器:
 
-node.js
+node.js 搭建热更新web服务器
+
+-----
+
+3.工具
+
+python写md5热更新文件对比工具
 
 -----
 
